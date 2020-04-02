@@ -1,0 +1,13 @@
+footer{
+    background-color: rgb(3, 48, 3);
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#bloc_footer{
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+*{
+    font-family: 'Comic Neue', cursive;
+}
+.image_jardin{
+    background-image: url(images/mon_jardin.jpg);
+    background-size: cover;
+    background-position: unset;
+    height: 400px;
+}
+
+#titre_mon_jardin{
+    margin-top: 60px;
+}
+h2{
+    text-align: center;
+    color: rgb(9, 77, 9); 
+}
+#titre_mon_jardin h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -20,8 +20,8 @@
                     <ul>
                         <a href="index.php"><li>Accueil</li></a>
                         <a href="index.php#infos"><li>Infos</li></a>
-                        <a href="index.php#terre"><li>La terre</li></a>
-                        <a href="index.php#outils"><li>Outils</li></a> 
+                        <a href="index.php#terre"><li>Terre</li></a>
+                        <a href="index.php#associations"><li>Associations</li></a> 
                         <a href="index.php#animaux"><li>Animaux</li></a>
                     </ul>
                 </div>

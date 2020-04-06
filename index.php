@@ -11,5 +11,7 @@
     $req3 = getArticleAnimaux2();
     $req4 = getArticleAnimaux3();
     $req5 = getArticleAnimaux4();
+    
 
     require('indexView.php');
+    

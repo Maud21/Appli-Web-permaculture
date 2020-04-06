@@ -67,7 +67,7 @@ h2{
     padding: 10px;
 }
 .tousArticles button:hover{
-    background-color: rgb(111, 153, 111);
+    background-color: rgb(35, 134, 35);
 }
 
 /*terre*/
@@ -93,52 +93,95 @@ h2{
     color: green;
 }
 
-/*outils*/
-#outils{
+/*associations*/
+#associations{
     margin-top: 60px;
 }
-.image_outils{
-    background-image: url(images/outils.jpg);
-    background-size: cover;
-    height: 350px;
+.resume{
+    margin-bottom: 30px;
 }
-#outils h2{
+.resume h4{
+    text-align: center;
+    font-family: 18px;
+}
+
+#associations h2{
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 50px;
 }
-#bloc_outils2{
-    margin-top: 100px;
+
+#assoc h3{
+    font-weight: bold;
+    font-size: 25px; 
+}
+#assoc p{
+    font-weight: bold;
+    font-size: 20px;
 }
 
-#bloc_outils3{
-    margin-top: 100px;
+#assoc .num1{
+    background-image: url(images/tomates.jpg);
+    background-size: cover;
+    filter: brightness(0.8);
 }
-#bloc_outils span{
+#assoc .num2{
+    background-image: url(images/concombre.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+#assoc .num3{
+    background-image: url(images/fraises.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+#assoc2 h3{
+    font-weight: bold;
+    font-size: 25px; 
+}
+#assoc2 p{
+    font-weight: bold;
+    font-size: 20px;
+}
+#assoc2 .num4{
+    background-image: url(images/pdeterre.jpg);
+    background-size: cover;
+    background-position: unset;
+    filter: brightness(0.9);
+    height: 190px;
+}
+#assoc2 .num5{
+    background-image: url(images/radis.jpg);
+    background-size: cover;
+    background-position: unset;
+    filter: brightness(1.2);
+    
+}
+#assoc2 .num6{
+    background-image: url(images/persil.jpg);
+    background-size: cover;
+    background-position: unset;
+    
+    
+}
+/*toutes les associations*/
+.tousAssociations{
+    text-align: center;
+    margin-top: 30px;
+}
+.tousAssociations button{
+    background-color: green;
+    border-radius: 3px;
+    border: green;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 25px;
-    background-color: rgb(3, 63, 3);
-    border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
 }
-#bloc_outils2 span{
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 25px;
-    background-color: rgb(3, 63, 3);
-    border-radius: 10px;
-    padding: 20px; 
+.tousAssociations button:hover{
+    background-color: rgb(35, 134, 35);
 }
-#bloc_outils3 span{
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 25px;
-    background-color: rgb(3, 63, 3);
-    border-radius: 10px;
-    padding: 20px; 
-}
-
 /*animaux*/
 #animaux{
     margin-top: 60px;

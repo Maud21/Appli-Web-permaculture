@@ -10,9 +10,7 @@
 </head>
 <body>
     <div class="image_jardin">
-            <?php
-                include 'header.php';
-            ?>     
+            <?php require 'header.php';?>     
     </div>
     <div id="titre_mon_jardin">
             <h2>MON JARDIN</h2>
@@ -20,6 +18,6 @@
     <div class="bloc_mon_jardin">
         <p>Bientôt disponible...</p>
     </div>
-<?php include 'footer.php'?>
+<?php require 'footer.php'?>
 </body>
 </html>
